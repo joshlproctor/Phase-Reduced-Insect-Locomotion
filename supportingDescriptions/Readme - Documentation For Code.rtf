@@ -1,0 +1,50 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11620\viewh13920\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 Introduction:
+\b0 \
+\
+This repository contains MATLAB scripts implementing the phase-reduced model of cockroach locomotion described in [1].   In this work, we investigate the effects of proprioceptive and exteroceptive feedback on stability and maneuverability.  The model is an extension of earlier work on phase-reduced models of legged locomotion [2] and a broader set of investigations of legged cockroach locomotion [3,4,5].  \
+\
+The MATLAB scripts in this repository provide an example code base for describing the phase-reduced model of [1].  Specifically, we include the main.m script that simulates forward the cockroach locomotion model from an initial condition.  This code is an example that implements the lateral perturbation experiments with varying synaptic strengths.  This corresponds to results from Section 4.1 of [1].  The folder `supportingFunctions\'92 includes all of the helper functions and input data required for main.m.  \
+\
+In addition to the code, we have also supplied a small set of documentation.   The documentation includes a file that describes how to execute main.m called `Running the code\'92.  There is also a file called `Description of supporting functions\'92 which has short descriptions of each of the files in the supportingFunctions folder.  We also include the numbering convention for the neural system model which is directly implemented in the code.  The numbering convention is schematically described in the file `NamingDiagram.pdf\'92.  This schematic has been reproduced from an earlier repository [6] which implements the phase-reduced model in [2].\
+\
+
+\b Executing main.m\
+\
+
+\b0 The `main.m\'92 MATLAB script simulates the phase-reduced model.  Specifically, the file implements the lateral cannon perturbation with varying synaptic feedback strengths.  For more details about running the file, please see the documentation file `Running the code\'92.
+\b \
+\
+Supporting functions\
+\
+
+\b0 All of the supporting functions for main.m are contained within the folder `supportingFunctions\'92.  In the `Documentation\'92 folder, we have included a file with a short description for each function.  
+\b \
+\
+Documentation\
+\
+
+\b0 The `Documentation\'92 folder contains descriptions of how to execute the code, supporting functions for running main.m, and the naming descriptions for the neural system and legs.  \
+\
+\
+[1]  Proctor, J.L., Holmes, P. The effects of feedback on stability and maneuverability of a phase-reduced model for cockroach locomotion. Biological Cybernetics (in review).  \
+\
+[2]  Proctor J, Kukillaya R, Holmes P (2010) A phase-reduced neuro-mechanical model for insect locomotion: feed-forward stability and proprioceptive feedback. Phil Trans R Soc A 368:5087\'965104\
+\
+[3]  Schmitt J, Holmes P (2000) Mechanical models for insect locomotion: Dynamics and stability in the horizontal plane \'96 I. Theory. Biol Cybern 83(6):501\'96515\
+\
+[4] Seipel J, Holmes P, Full R (2004) Dynamics and stability of insect locomotion: A hexapedal model for horizontal plane motion. Biol Cybern 91(2):76\'9690\
+\
+[5]  Kukillaya R, Holmes P (2007) A hexapedal jointed-leg model for insect locomotion in the horizontal plane.\
+Biol Cybern 97:379\'96395\
+\
+[6]  Electronic Physics Auxiliary Publication Service E (2009) See document no. e-chaoeh-19-005992 for parameter values and code documentation. URL: http://ftp.aip.org/epaps/chaos/E-CHAOEH-\
+19-005992/ For more information on EPAPS, see http://www.aip.org/pubservs/epaps.html\
+\
+}
