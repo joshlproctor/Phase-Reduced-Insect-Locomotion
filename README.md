@@ -32,6 +32,5 @@ The `Documentation` folder contains descriptions of how to execute the code, sup
 [5]  Kukillaya R, Holmes P (2007) A hexapedal jointed-leg model for insect locomotion in the horizontal plane.
 Biol Cybern 97:379–395
 
-[6]  Electronic Physics Auxiliary Publication Service E (2009) See document no. e-chaoeh-19-005992 for parameter values and code documentation. URL: http://ftp.aip.org/epaps/chaos/E-CHAOEH-
-19-005992/ For more information on EPAPS, see http://www.aip.org/pubservs/epaps.html
+[6]  Electronic Physics Auxiliary Publication Service E (2009) See document no. e-chaoeh-19-005992 for parameter values and code documentation. URL: http://ftp.aip.org/epaps/chaos/E-CHAOEH-19-005992/ For more information on EPAPS, see http://www.aip.org/pubservs/epaps.html
 
